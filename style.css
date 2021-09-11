@@ -41,10 +41,7 @@ body {
     display: grid;
     grid-template-columns: var(--dir-menu-size) auto var(--dir-menu-size);
     grid-template-rows: var(--dir-menu-size) auto var(--dir-menu-size);
-    grid-template-areas:
-        'l t t'
-        'l c r'
-        'b b r';
+    grid-template-areas: 'l t t' 'l c r' 'b b r';
     background-color: rgb(255 255 255 / 25%);
     border-radius: 1rem;
     overflow: hidden;            
